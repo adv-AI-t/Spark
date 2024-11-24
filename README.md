@@ -15,5 +15,30 @@ Requirements:
 After downloading spark (e.g.: spark-3.5.3-bin-hadoop3.tgz) unzip the file to extract the folder (e.g.: spark-3.5.3-bin-hadoop3)
 
 ```bash
-cd spark-3.5.3-bin-hadoop3
+cd spark-3.5.3-bin-hadoop
+```
 
+Stary PySpark
+
+```bash
+bin/pyspark
+```
+
+Test
+
+```bash
+spark.range(5).show()
+```
+Expected output
+
+```bash
++---+
+| id|
++---+
+|  0|
+|  1|
+|  2|
+|  3|
+|  4|
++---+
+```
