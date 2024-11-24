@@ -18,7 +18,7 @@ After downloading spark (e.g.: spark-3.5.3-bin-hadoop3.tgz) unzip the file to ex
 cd spark-3.5.3-bin-hadoop
 ```
 
-Stary PySpark
+Start PySpark
 
 ```bash
 bin/pyspark
